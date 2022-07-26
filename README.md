@@ -27,5 +27,5 @@ INSERT INTO banco.tabela1
 (id, url, app, `local`)
 VALUES(4, 'http://redmine.dominio.com.br/', 'REDMINE', 'Kubernetes Container - VMware Server');
 INSERT INTO banco.tabela1
-(id, url, app, `local`, cod_error)
-VALUES(5, 'http://192.168.1.25', 'NGINX', 'Rack1 - Servidor HP ', NULL);
+(id, url, app, `local`)
+VALUES(5, 'http://192.168.1.25', 'NGINX', 'Rack1 - Servidor HP ');
