@@ -9,11 +9,11 @@ from mysql.connector import Error
 
 # funcao conexao com banco
 def get_connection():
-    connection = mysql.connector.connect(host='m1.sysap.caema.ma.gov.br',
-                                         port='8092',
-                                         database='pytonstatusurls',
-                                         user='python-user',
-                                         password='Labe113deJur')
+    connection = mysql.connector.connect(host='hostaddress',
+                                         port='3306',
+                                         database='databasename',
+                                         user='user',
+                                         password='password')
     return connection
 
 # funcao endrecos das aplicacoes web
