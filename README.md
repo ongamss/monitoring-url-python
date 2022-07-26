@@ -1,8 +1,8 @@
-# monitoring url com python+plotly+mysql
+# monitoring url with python+plotly+mysql (monitorando url com python+plotly+mysql)
 Monitoramento de url com python 3.8 usando plotly com acesso a banco mysql para cadastro das urls
 
 
-# Estrutura da tabela no banco mysql
+# Table structure (Estrutura da tabela no banco mysql)
 -- banco.tabela1 definition
 
 CREATE TABLE `tabela1` (
@@ -13,7 +13,7 @@ CREATE TABLE `tabela1` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
 
-# Insert de dados
+# Data Insert (Insert de dados)
 INSERT INTO banco.tabela1
 (id, url, app, `local`)
 VALUES(1, 'http://192.168.1.20/dokuwiki/', 'DOKUWIKI', 'Rack1 - Servidor HP', );
