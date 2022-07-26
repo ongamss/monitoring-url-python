@@ -1,0 +1,8 @@
+pandas
+dash
+requests
+dash
+discord_webhook
+DiscordWebhook
+mysql-connector-python
+discord-webhook
