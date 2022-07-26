@@ -1,4 +1,4 @@
-# monitoring-usrl-python
+# monitoring url com python+plotly+mysql
 Monitoramento de url com python 3.8 usando plotly com acesso a banco mysql para cadastro das urls
 
 
