@@ -1,4 +1,3 @@
-from distutils.log import error
 from dash import Dash, dash_table, html, dcc
 import pandas as pd
 from collections import OrderedDict
@@ -144,7 +143,7 @@ df['id'] = df.index
 
 app.layout = html.Div(children=[
     html.H1(
-        children='Status URLs App Caema',
+        children='Status URLs Apps',
     ),
     dash_table.DataTable(
         id='table1',
