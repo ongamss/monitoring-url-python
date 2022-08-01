@@ -1,5 +1,5 @@
 # monitoring url with python+plotly+mysql (monitorando url com python+plotly+mysql)
-Monitoramento de url com python 3.8 usando plotly com acesso a banco mysql para cadastro das urls
+Monitoramento de url com python 3.8 usando plotly com acesso a banco mysql para consulta das urls inseridas em tabela1
 ![monitor_url](https://user-images.githubusercontent.com/70037523/182167871-25368d5e-56df-4df5-a749-664d14aa3791.png)
 
 
