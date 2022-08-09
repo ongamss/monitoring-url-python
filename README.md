@@ -30,3 +30,9 @@ VALUES(4, 'http://redmine.dominio.com.br/', 'REDMINE', 'Kubernetes Container - V
 INSERT INTO banco.tabela1
 (id, url, app, `local`)
 VALUES(5, 'http://192.168.1.25', 'NGINX', 'Rack1 - Servidor HP ');
+
+# How do execute (Como executar):
+Access the directory and run docker command (Acesse o diretório e execute o comando docker).
+- cd monitoring-url-python
+- docker build -t monitolocalhost/monitoramento-pyramento-py:v1.0 .
+- docker run -p 8050:8050 --name monitor-py -d localhost/monitoramento-py:v1.0 
