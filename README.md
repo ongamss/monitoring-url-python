@@ -6,6 +6,7 @@ Monitoramento de url com python 3.8 usando plotly com acesso a banco mysql para 
 # Table structure (Estrutura da tabela no banco mysql)
 -- banco.tabela1 definition
 
+```sql
 CREATE TABLE `tabela1` (
   `id` int NOT NULL AUTO_INCREMENT,
   `url` text,
@@ -14,8 +15,9 @@ CREATE TABLE `tabela1` (
   `cod_error` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb3;
-
+```
 # Data Insert (Insert de dados)
+```sql
 INSERT INTO banco.tabela1
 (id, url, app, `local`)
 VALUES(1, 'http://192.168.1.20/dokuwiki/', 'DOKUWIKI', 'Rack1 - Servidor HP', );
@@ -31,6 +33,7 @@ VALUES(4, 'http://redmine.dominio.com.br/', 'REDMINE', 'Kubernetes Container - V
 INSERT INTO banco.tabela1
 (id, url, app, `local`)
 VALUES(5, 'http://192.168.1.25', 'NGINX', 'Rack1 - Servidor HP ');
+```
 
 # How do execute (Como executar):
 Access the directory and run docker command (Acesse o diretório e execute o comando docker).
