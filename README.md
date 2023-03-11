@@ -7,12 +7,13 @@ Monitoramento de url com python 3.8 usando plotly com acesso a banco mysql para 
 -- banco.tabela1 definition
 
 CREATE TABLE `tabela1` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL AUTO_INCREMENT,
   `url` text,
   `app` text,
   `local` text,
+  `cod_error` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb3;
 
 # Data Insert (Insert de dados)
 INSERT INTO banco.tabela1
