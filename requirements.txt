@@ -6,3 +6,4 @@ discord_webhook
 DiscordWebhook
 mysql-connector-python
 discord-webhook
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
